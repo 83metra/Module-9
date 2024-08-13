@@ -1,4 +1,4 @@
-def  apply_all_func(int_list, *functions):
+def apply_all_func(int_list, *functions):
     results = {}
     try:
         for function in functions:
