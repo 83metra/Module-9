@@ -1,9 +1,6 @@
 class StepValueError(ValueError):
     pass
 
-class IteratoError():
-    pass
-
 class Iterator:
     def __init__(self, start, stop, step = 1):
         self.start, self.stop, self.step = start - step, stop, step
