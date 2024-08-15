@@ -3,7 +3,7 @@ import os.path, random
 print('Задание 1. Lambda-функция')
 first = 'Мама мыла раму'
 second = 'Рамена мало было'
-print(list(map(lambda x, y: x[0:] == y[0:], first, second)))
+print(list(map(lambda x, y: x == y, first, second)))
 
 print('\nЗадание 2. Замыкание')
 
