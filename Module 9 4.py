@@ -10,7 +10,7 @@ print('\nЗадание 2. Замыкание')
 def get_advanced_writer(file_name):
 
     def write_everything(*data_set):
-        if os.path.isfile('example.txt'):
+        if os.path.isfile(f'{file_name}'):
             print(f'Файл {file_name} уже создан, перезаписываем данные:\n\t{data_set}.')
             with open(file_name, 'w+', encoding='utf-8') as file:
                 for line in data_set:
